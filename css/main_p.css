@@ -99,7 +99,7 @@ body {
 .con3 {
     width: 100%;
     height: 1040px;
-    background: url(/img/main2-1.png);
+    background: url(./img/main2-1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -288,25 +288,25 @@ body {
     z-index: 3;
 }
 .con4 .inner .con-box .box1 {
-    background-image: url(/img/main4-1.jpg);
+    background-image: url(./img/main4-1.jpg);
 }
 .con4 .inner .con-box .box2 {
-    background-image: url(/img/main4-2.jpg);
+    background-image: url(./img/main4-2.jpg);
 }
 .con4 .inner .con-box .box3 {
-    background-image: url(/img/main4-3.jpg);
+    background-image: url(./img/main4-3.jpg);
 }
 .con4 .inner .con-box .box4 {
-    background-image: url(/img/main4-4.jpg);
+    background-image: url(./img/main4-4.jpg);
 }
 .con4 .inner .con-box .box5 {
-    background-image: url(/img/main4-5.jpg);
+    background-image: url(./img/main4-5.jpg);
 }
 .con4 .inner .con-box .box6 {
-    background-image: url(/img/main4-6.jpg);
+    background-image: url(./img/main4-6.jpg);
 }
 .con4 .inner .con-box .box7 {
-    background-image: url(/img/main4-7.jpg);
+    background-image: url(./img/main4-7.jpg);
 }
 
 .con5 {
@@ -414,7 +414,7 @@ body {
 
 .con6 {
     height: 1000px;
-    background-image: url(/img/main6.jpg);
+    background-image: url(../img/main6.jpg);
 }
 .con6 .inner {
     width: 1520px;

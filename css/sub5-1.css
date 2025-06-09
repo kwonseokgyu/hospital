@@ -229,7 +229,7 @@
 }
 #visual .inner {
     width: 100%;
-    background-image: url(/img/visual5-1.jpg);
+    background-image: url(../img/visual5-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
