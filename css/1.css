@@ -1,0 +1,438 @@
+#wrap {
+    width: 100%;
+    min-width: 1600px;
+}
+/* .inner 공통 */
+.inner {
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    width: 1170px;
+}
+#header {
+    background: #efefef;
+}
+#header .inner {
+    height: 120px;
+}
+#header h1 {
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+#header .nav {
+    position: absolute;
+    left: 320px;
+    top: 50px;
+}
+#header .nav .gnb {
+    display: flex;
+}
+#header .nav .gnb li {
+    margin-right: 80px;
+}
+#header .nav .gnb li a {
+    font-size: 18px;
+    font-weight: 600;
+}
+#header .util {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: flex;
+}
+#header .util li {
+    margin-left: 20px;
+    position: relative;
+}
+#header .util li a {
+    font-size: 15px;
+}
+#header .util li:first-child::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #333;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* right 기준 (+)<- -> (-) */
+    right: -10px;
+}
+#header .util li:last-child {
+    margin-left: 30px;
+}
+
+#visual {
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+#visual .main-banner {
+    height: 750px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* 가로스크롤 */
+}
+#visual .main-banner li {
+    height: 750px;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100%;
+    top: 0;
+}
+#visual .main-banner li:nth-child(1) {
+    background-image: url(../images/visual1.webp);
+    left: 0;
+}
+#visual .main-banner li:nth-child(2) {
+    background-image: url(../images/visual2.webp);
+}
+#visual .main-banner li:nth-child(3) {
+    background-image: url(../images/visual3.webp);
+}
+#visual .main-banner li:nth-child(4) {
+    background-image: url(../images/visual4.webp);
+}
+
+#visual .main-banner li .txt-box h2 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    overflow: hidden;
+    text-shadow: 0 0 1px #999;
+}
+
+#visual .main-banner li .txt-box p {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    text-shadow: 0 0 1px #999;
+}
+#visual .main-banner li .txt-box span {
+    display: block;
+    /* transform: translateY(-100%); */
+}
+
+/* 버튼 */
+#visual .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+#visual .prev {
+    left: 50px;
+}
+#visual .next {
+    right: 50px;
+}
+
+/* 페이징 */
+#visual .paging {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    display: flex;
+}
+#visual .paging li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #333;
+    margin-right: 10px;
+}
+#visual .paging li:last-child {
+    margin-right: 0;
+}
+/* 동적클래스 처리  */
+#visual .paging li.on {
+    background: tomato;
+}
+
+#content {
+}
+.main {
+    width: 100%;
+}
+/* 공통 */
+.main .con {
+    width: 100%;
+    /* border: 1px solid #333; */
+}
+.main .con .inner {
+    padding: 120px 0;
+}
+.main .con h2 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.main .con h2 + p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main .con1 {
+    background: #efefef;
+}
+.main .con1 .time-inner {
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .con1 .time-inner a dl {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.main .con1 .time-inner a dl dt {
+    font-weight: 600;
+    margin-right: 25px;
+    background-image: url(../images/time_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding: 5px 0 5px 40px;
+}
+.main .con1 .time-inner a dl dd strong {
+    font-weight: 600;
+}
+.main .con1 .time-inner a dl dd:first-of-type {
+    margin-right: 40px;
+    position: relative;
+}
+.main .con1 .time-inner a dl dd:first-of-type::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 16px;
+    background: #333;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main .con2 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../images/mainCon1_bg.jpg);
+}
+.main .con2 h2 {
+    color: #fff;
+}
+.main .con2 h2 + p {
+    color: #fff;
+    font-weight: 100;
+}
+.main .con2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con2 ul li {
+    width: 574px;
+}
+.main .con2 ul li a {
+    /* 컨텐츠너비만큼 인식 */
+}
+.main .con2 ul li a img {
+}
+.main .con2 ul li a strong {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main .con3 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/mainCon2_bg.jpg);
+    background-size: cover;
+}
+.main .con3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con3 ul li {
+    width: 375px;
+}
+.main .con3 ul li a {
+}
+.main .con3 ul li a img {
+}
+.main .con3 ul li a strong {
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    height: 75px;
+    font-size: 22px;
+    font-weight: 600;
+    background: #fff;
+}
+
+.main .con4 {
+}
+.main .con4 .con-box {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con4 .con-box .box {
+    width: 574px;
+    box-sizing: border-box;
+}
+.main .con4 .con-box .left {
+    border: 1px solid #dcdcdc;
+    padding: 40px;
+    position: relative;
+}
+.main .con4 .con-box .left h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.main .con4 .con-box .left h3 + a {
+    display: block;
+}
+.main .con4 .con-box .left h3 + a strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.main .con4 .con-box .left h3 + a span {
+    display: block;
+}
+
+.main .con4 .con-box .left ul {
+    padding-top: 25px;
+    margin-top: 25px;
+    border-top: 1px solid #dcdcdc;
+}
+.main .con4 .con-box .left ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.main .con4 .con-box .left ul li:last-child {
+    margin-bottom: 0;
+}
+.main .con4 .con-box .left ul li a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 400px;
+}
+.main .con4 .con-box .left .more {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.main .con4 .con-box .left .more a {
+    display: block;
+    padding-right: 30px;
+}
+.main .con4 .con-box .left .more a::after {
+    content: '+';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main .con4 .con-box .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main .con4 .con-box .right ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con4 .con-box .right ul li {
+}
+.main .con4 .con-box .right ul li a {
+    display: block;
+    width: 275px;
+    height: 190px;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.main .con4 .con-box .right ul li:first-child a {
+    background-image: url(../images/mainCon3_util1_img1.png);
+}
+.main .con4 .con-box .right ul li:last-child a {
+    background-image: url(../images/mainCon3_util1_img2.png);
+}
+
+.main .con4 .con-box .right ul li a strong {
+    font-weight: 600;
+}
+.main .con4 .con-box .right .bg {
+    width: 575px;
+    height: 190px;
+    background: #dcdcdc;
+    box-sizing: border-box;
+    padding: 35px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url(../images/mainCon3_banner.jpg);
+}
+.main .con4 .con-box .right .bg strong {
+    font-size: 32px;
+    color: #fff;
+    line-height: 1.2;
+}
+.main .con4 .con-box .right .bg .more {
+    margin-top: 10px;
+}
+.main .con4 .con-box .right .bg .more a {
+    color: #fff;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../images/arrow.png);
+    background-position: 130px 50%;
+}
+.footer {
+}
+.footer .inner {
+}
+.footer .inner p {
+}
+.footer .inner p + a {
+}
+.footer .inner p + span {
+}

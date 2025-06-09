@@ -1,0 +1,111 @@
+.nav {
+}
+
+#subVisual {
+    margin-top: 200px;
+}
+
+#subVisual .inner {
+    width: 1400px;
+}
+
+#subVisual .inner .frame {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+}
+
+#subVisual .inner h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #6d7d41;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#subVisual .inner .frame .box {
+    width: 370px;
+    height: 470px;
+    border-radius: 30px;
+    background-image: url(../img/img7.7.png);
+    box-sizing: border-box;
+    background-size: 110%;
+    background-position: -2px 0;
+    background-repeat: no-repeat;
+}
+
+#subVisual .inner .frame .box2 {
+    width: 370px;
+    height: 470px;
+    border-radius: 30px;
+    background-image: url(../img/img8.8.png);
+    box-sizing: border-box;
+    background-size: 110%;
+    background-position: -2px 0;
+    background-repeat: no-repeat;
+}
+
+#subVisual .inner .frame .box3 {
+    width: 370px;
+    height: 470px;
+    border-radius: 30px;
+    background-image: url(../img/img9.9.png);
+    box-sizing: border-box;
+}
+
+#subVisual .inner .frame .box:hover,
+#subVisual .inner .frame .box2:hover,
+#subVisual .inner .frame .box3:hover {
+    outline: 2px solid #889c51;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+#subVisual .inner .frame .box img {
+    transform: translate(70%, 40%);
+}
+
+#subVisual .inner .frame .box2 img {
+    transform: translate(55%, 40%);
+}
+
+#subVisual .inner .frame .box3 img {
+    transform: translate(50%, 40%);
+}
+
+#subVisual .inner .frame .box h3,
+#subVisual .inner .frame .box2 h3,
+#subVisual .inner .frame .box3 h3 {
+    font-size: 35px;
+    color: #efefef;
+    font-weight: 500;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#subVisual .inner .text {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#subVisual .inner .text strong ul li:nth-child(1) {
+    font-size: 25px;
+}
+
+#subVisual .inner .text strong ul li:nth-child(2) {
+    color: #95c11f;
+    font-size: 35px;
+}
+
+#subVisual .inner .text strong ul li:nth-child(3) {
+    font-size: 25px;
+}
+
+#subVisual .inner .text strong ul li:nth-child(4) {
+    font-size: 25px;
+}
+
+footer {
+    margin-top: 200px;
+}

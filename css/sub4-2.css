@@ -1,0 +1,152 @@
+#container {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+#content {
+    width: 1400px;
+    margin: auto;
+}
+#content .top {
+    margin-bottom: 50px;
+}
+#content .top .btn1 {
+    width: 190px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #889c51;
+    border-radius: 50px;
+    border: none;
+    margin-left: 1210px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content .top .btn1:hover {
+    color: #889c51;
+    border: 2px solid #889c51;
+    background-color: #ffffff;
+    font-weight: 700;
+}
+#content .menu ul {
+    display: flex;
+}
+#content .menu ul li {
+    width: 700px;
+    height: 65px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    outline: 1px solid #c2c2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#content .menu ul li:hover {
+    cursor: pointer;
+    border-top: 3px solid #889c51;
+    background-color: #f7f7f7;
+    color: #889c51;
+    font-weight: 600;
+}
+#content .inner {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#content .inner .box {
+    width: 670px;
+    height: 275px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    margin-bottom: 55px;
+}
+#content .inner .box .left {
+    width: 187px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+}
+#content .inner .box .left img {
+    width: 187px;
+    /* margin-top: 25px; */
+    position: absolute;
+    bottom: 0;
+}
+#content .inner .box .right {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#content .inner .box .right > p {
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#content .inner .box .right div {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+
+#content .inner .box .right div h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 29px;
+}
+#content .inner .box .right div p {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+#content .inner .box .right dl {
+    margin-left: 29px;
+}
+#content .inner .box .right dl dt {
+    font-size: 20px;
+    font-weight: 700;
+    color: #889c51;
+}
+#content .inner .box .right dl dd {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+#content .inner .box .right .btn {
+    display: flex;
+}
+#content .inner .box .right .btn button {
+    width: 240px;
+    height: 47px;
+    border: none;
+    background: #ffffff;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+#content .inner .box .right .btn button i {
+    font-size: 25px;
+    display: inline-block;
+    line-height: 1;
+    margin-right: 8px;
+}
+
+#content .inner .box .right .btn button p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+#content .inner .box .right .btn button:hover {
+    color: white;
+    font-weight: 600;
+    background-color: #889c51;
+}

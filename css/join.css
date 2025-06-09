@@ -1,0 +1,66 @@
+.login {
+    display: flex;
+
+    margin: 278px;
+}
+.login img {
+    margin-right: 200px;
+}
+.box {
+    width: 500px;
+    height: 577px;
+    font-weight: 600;
+    transform: translateY(115px);
+}
+.box h2 {
+    font-size: 32px;
+    margin-bottom: 65px;
+    transform: translateX(120px);
+}
+
+.box p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-align: center;
+    display: center;
+    transform: translateX(-60px);
+}
+.box .rap {
+    margin-top: 40px;
+    margin-bottom: 140px;
+    position: relative;
+}
+.box .rap p {
+    margin-top: 5px;
+    position: relative;
+}
+
+.login .box .rap::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: #6d7d41;
+    height: 2px;
+    width: 450px;
+    top: 170px;
+    left: -30px;
+}
+
+.box span button {
+    cursor: pointer;
+    cursor: pointer;
+    border: none;
+    background-color: #EEF6D9;
+    width: 400px;
+    height: 60px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.box span ul li .id {
+    margin-top: 20px;
+}

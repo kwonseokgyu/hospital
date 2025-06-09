@@ -1,0 +1,215 @@
+#visual .inner {
+    background-image: url(/img/visual6-1.jpg);
+}
+#visual .inner::after {
+    content: '';
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #666666;
+    opacity: 0.5;
+    z-index: 1;
+}
+#visual .inner h2 {
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    color: #ffffff;
+    z-index: 1000;
+}
+#visual .inner h2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 90px;
+    background: #ffffff;
+    z-index: 1000;
+}
+#visual .inner p {
+    z-index: 1000;
+}
+#container {
+}
+#content {
+}
+#content .inner {
+    width: 1400px;
+}
+
+#content .inner .sect {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+}
+#content .inner h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#content .inner .sct1 {
+    border: 1px solid #000;
+    border-right: none;
+    width: 700px;
+    height: 485px;
+}
+#content .inner .sct1 h2 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+#content .inner .sct1 .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+#content .inner .sct1 .input-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+}
+#content .inner .sct1 .input-boxes input {
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+#content .inner .sct1 .submit-btn {
+    width: 120px;
+    height: 150px;
+    margin-top: 0;
+    background-color: #95c11f;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content .inner .sct1 span {
+    font-size: 18px;
+    font-weight: 500;
+    width: 125px;
+    height: 120px;
+    background: #95c11f;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+#content .inner .sct2 {
+    border: 1px solid #000;
+    width: 700px;
+    height: 485px;
+}
+#content .inner .sct2 h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#content .inner .sct2 .box1 img {
+    transform: translateX(300px);
+    margin-top: 50px;
+}
+
+#content .inner .sct2 .box1 {
+}
+#content .inner .sct2 .line {
+    border: 1px solid #6d7d41;
+    width: 250px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+#content .inner .sct2 p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 50px;
+}
+#content .inner .texsub ul {
+    display: flex;
+}
+#content .inner .texsub ul li {
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+    width: 180px;
+    height: 40px;
+    background: #95c11f;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+#content .inner .sct3 .box2 img {
+    transform: translateX(650px);
+    margin-top: 50px;
+}
+#content .inner .sct3 {
+    width: 1400px;
+    height: 485px;
+    border: 1px solid #000;
+}
+#content .inner .sct3 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#content .inner .sct3 ul li {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+#content .inner .tex {
+    margin: 30px;
+}
+#content .inner .tex ul {
+    display: flex;
+}
+#content .inner .tex ul li {
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+    width: 180px;
+    height: 40px;
+    background: #95c11f;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+#content .inner .sct4 {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 1400px;
+    background: #eef6d9;
+    margin-bottom: 90px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#content .inner .sct4 h3 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#content .inner .sct4 span ul li {
+    font-size: 16px;
+    font-weight: 500;
+}
+footer {
+    margin-top: 200px;
+}
